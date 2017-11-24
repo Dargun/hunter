@@ -3,6 +3,7 @@ include(hunter_cmake_args)
 include(hunter_pick_scheme)
 include(hunter_cacheable)
 include(hunter_download)
+include(hunter_check_toolchain_definition)
 
 hunter_add_version(
     PACKAGE_NAME
@@ -70,11 +71,25 @@ hunter_add_version(
     f392b87edb5bbc2b44aa08cfd72d87da8cc8661f
 )
 
+set (BUILD_STATIC_LIBS OFF)
+if(NOT BUILD_SHARED_LIBS)
+  set (BUILD_STATIC_LIBS ON)
+endif()
+
+set (BUILD_MSVC_MT OFF)
+if(MSVC AND BUILD_STATIC_LIBS)
+ hunter_check_toolchain_definition(NAME "_DLL" DEFINED _hunter_vs_md)
+  if(NOT _hunter_vs_md)
+    set (BUILD_MSVC_MT ON)
+  endif()
+endif()
+
 hunter_cmake_args(
     PocoCpp
     CMAKE_ARGS
         CMAKE_INSTALL_SYSTEM_RUNTIME_LIBS_SKIP=TRUE
-        POCO_STATIC=ON
+        POCO_STATIC=${BUILD_STATIC_LIBS}
+        POCO_MT=${BUILD_MSVC_MT}
         ENABLE_CPPUNIT=OFF
         ENABLE_MONGODB=OFF
         ENABLE_NETSSL=OFF
