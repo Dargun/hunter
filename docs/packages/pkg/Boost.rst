@@ -101,3 +101,37 @@ If you are using only the header-only parts of Boost::Math then the libraries ca
 
     hunter_add_package(Boost COMPONENTS math)
     find_package(Boost CONFIG REQUIRED)
+
+Stacktrace
+----
+
+.. code-block:: cmake
+
+    hunter_add_package(Boost COMPONENTS system stacktrace)
+
+    # Any compiler on POSIX
+    find_package(Boost CONFIG REQUIRED system stacktrace_addr2line)
+    # Requires linking with libdl on POSIX
+    target_link_libraries(...
+        Boost::system
+        Boost::stacktrace_addr2line
+        dl)
+
+    # Any compiler on POSIX, or MinGW, or MinGW-w64
+    find_package(Boost CONFIG REQUIRED system stacktrace_backtrace)
+    # Requires linking with libdl on POSIX and libbacktrace libraries
+    # MinGW-w64 and MinGW (without -w64) users have to install libbacktrace
+    target_link_libraries(...
+        Boost::system
+        Boost::stacktrace_backtrace
+        dl
+        backtrace)
+
+    # MSVC, MinGW-w64, Intel on Windows
+    find_package(Boost CONFIG REQUIRED system stacktrace_windbg)
+    # Uses COM to show debug info. May require linking with ole32 and dbgeng.
+    target_link_libraries(...
+        Boost::system
+        Boost::stacktrace_windbg
+        ole32.lib
+        dbgeng.lib)
