@@ -35,3 +35,5 @@ else()
     message(WARNING "Boost stacktrace backtrace or addr2line not found, use only symlinks!")
   endif()
 endif()
+
+target_include_directories(foo PUBLIC ${Boost_INCLUDE_DIRS})
