@@ -1,26 +1,1584 @@
 [
     {
-        "id": 8703068222,
-        "run_id": 3183283675,
-        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3183283675",
+        "id": 9930592212,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
         "run_attempt": 1,
-        "node_id": "CR_kwDOBpmML88AAAACBr5IPg",
-        "head_sha": "73ff43c9c146889d4f6b4c68a865fd0d3bc5921e",
-        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/8703068222",
-        "html_url": "https://github.com/Dargun/hunter/actions/runs/3183283675/jobs/5190315093",
+        "node_id": "CR_kwDOBpmML88AAAACT-jP1A",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930592212",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133480904",
         "status": "completed",
         "conclusion": "failure",
-        "started_at": "2022-10-05T22:55:04Z",
-        "completed_at": "2022-10-05T22:55:04Z",
-        "name": "foo vs-15-2017-win64-store-10-cxx17 windows-2016",
-        "steps": [],
-        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/8703068222",
-        "labels": [
-            "windows-2016"
+        "started_at": "2022-12-07T01:09:12Z",
+        "completed_at": "2022-12-07T01:09:37Z",
+        "name": "foo clang-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:11.000Z",
+                "completed_at": "2022-12-07T01:09:12.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:12.000Z",
+                "completed_at": "2022-12-07T01:09:16.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:09:16.000Z",
+                "completed_at": "2022-12-07T01:09:16.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2022-12-07T01:09:16.000Z",
+                "completed_at": "2022-12-07T01:09:16.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2022-12-07T01:09:16.000Z",
+                "completed_at": "2022-12-07T01:09:16.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:09:16.000Z",
+                "completed_at": "2022-12-07T01:09:16.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2022-12-07T01:09:16.000Z",
+                "completed_at": "2022-12-07T01:09:36.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2022-12-07T01:09:36.000Z",
+                "completed_at": "2022-12-07T01:09:36.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:09:36.000Z",
+                "completed_at": "2022-12-07T01:09:36.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:09:36.000Z",
+                "completed_at": "2022-12-07T01:09:36.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:09:36.000Z",
+                "completed_at": "2022-12-07T01:09:36.000Z"
+            }
         ],
-        "runner_id": 0,
-        "runner_name": "",
-        "runner_group_id": 0,
-        "runner_group_name": ""
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930592212",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 2,
+        "runner_name": "GitHub Actions 2",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 9930592345,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOBpmML88AAAACT-jQWQ",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930592345",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133481007",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2022-12-07T01:09:12Z",
+        "completed_at": "2022-12-07T01:09:59Z",
+        "name": "foo gcc-7-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:12.000Z",
+                "completed_at": "2022-12-07T01:09:13.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:13.000Z",
+                "completed_at": "2022-12-07T01:09:19.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:09:19.000Z",
+                "completed_at": "2022-12-07T01:09:19.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2022-12-07T01:09:19.000Z",
+                "completed_at": "2022-12-07T01:09:19.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2022-12-07T01:09:20.000Z",
+                "completed_at": "2022-12-07T01:09:20.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:09:20.000Z",
+                "completed_at": "2022-12-07T01:09:20.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2022-12-07T01:09:20.000Z",
+                "completed_at": "2022-12-07T01:09:57.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2022-12-07T01:09:57.000Z",
+                "completed_at": "2022-12-07T01:09:57.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:09:57.000Z",
+                "completed_at": "2022-12-07T01:09:57.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:09:57.000Z",
+                "completed_at": "2022-12-07T01:09:58.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:09:58.000Z",
+                "completed_at": "2022-12-07T01:09:58.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930592345",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 24,
+        "runner_name": "GitHub Actions 8",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 9930592445,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOBpmML88AAAACT-jQvQ",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930592445",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133481091",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2022-12-07T01:09:10Z",
+        "completed_at": "2022-12-07T01:09:51Z",
+        "name": "foo gcc-8-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:10.000Z",
+                "completed_at": "2022-12-07T01:09:11.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:11.000Z",
+                "completed_at": "2022-12-07T01:09:14.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:09:14.000Z",
+                "completed_at": "2022-12-07T01:09:14.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2022-12-07T01:09:14.000Z",
+                "completed_at": "2022-12-07T01:09:14.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2022-12-07T01:09:14.000Z",
+                "completed_at": "2022-12-07T01:09:14.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:09:14.000Z",
+                "completed_at": "2022-12-07T01:09:14.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2022-12-07T01:09:15.000Z",
+                "completed_at": "2022-12-07T01:09:50.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2022-12-07T01:09:50.000Z",
+                "completed_at": "2022-12-07T01:09:50.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:09:50.000Z",
+                "completed_at": "2022-12-07T01:09:50.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:09:50.000Z",
+                "completed_at": "2022-12-07T01:09:50.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:09:50.000Z",
+                "completed_at": "2022-12-07T01:09:50.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930592445",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 33,
+        "runner_name": "GitHub Actions 16",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 9930592554,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOBpmML88AAAACT-jRKg",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930592554",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133481180",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2022-12-07T01:09:20Z",
+        "completed_at": "2022-12-07T01:09:58Z",
+        "name": "foo gcc-9-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:19.000Z",
+                "completed_at": "2022-12-07T01:09:21.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:21.000Z",
+                "completed_at": "2022-12-07T01:09:26.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:09:27.000Z",
+                "completed_at": "2022-12-07T01:09:27.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2022-12-07T01:09:27.000Z",
+                "completed_at": "2022-12-07T01:09:27.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2022-12-07T01:09:27.000Z",
+                "completed_at": "2022-12-07T01:09:27.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:09:27.000Z",
+                "completed_at": "2022-12-07T01:09:27.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2022-12-07T01:09:27.000Z",
+                "completed_at": "2022-12-07T01:09:56.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2022-12-07T01:09:56.000Z",
+                "completed_at": "2022-12-07T01:09:56.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:09:56.000Z",
+                "completed_at": "2022-12-07T01:09:56.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:09:56.000Z",
+                "completed_at": "2022-12-07T01:09:57.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:09:57.000Z",
+                "completed_at": "2022-12-07T01:09:57.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930592554",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 29,
+        "runner_name": "GitHub Actions 12",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 9930593883,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOBpmML88AAAACT-jWWw",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930593883",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133482135",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2022-12-07T01:09:32Z",
+        "completed_at": "2022-12-07T01:11:19Z",
+        "name": "foo mingw-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:32.000Z",
+                "completed_at": "2022-12-07T01:09:33.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:34.000Z",
+                "completed_at": "2022-12-07T01:10:00.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:10:01.000Z",
+                "completed_at": "2022-12-07T01:10:01.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2022-12-07T01:10:01.000Z",
+                "completed_at": "2022-12-07T01:10:01.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2022-12-07T01:10:01.000Z",
+                "completed_at": "2022-12-07T01:10:14.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:10:14.000Z",
+                "completed_at": "2022-12-07T01:10:14.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2022-12-07T01:10:15.000Z",
+                "completed_at": "2022-12-07T01:10:15.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2022-12-07T01:10:15.000Z",
+                "completed_at": "2022-12-07T01:11:13.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:11:13.000Z",
+                "completed_at": "2022-12-07T01:11:13.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:11:13.000Z",
+                "completed_at": "2022-12-07T01:11:18.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:11:18.000Z",
+                "completed_at": "2022-12-07T01:11:18.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930593883",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 22,
+        "runner_name": "GitHub Actions 7",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 9930594024,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOBpmML88AAAACT-jW6A",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930594024",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133482227",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2022-12-07T01:09:20Z",
+        "completed_at": "2022-12-07T01:10:38Z",
+        "name": "foo msys-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:19.000Z",
+                "completed_at": "2022-12-07T01:09:21.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:21.000Z",
+                "completed_at": "2022-12-07T01:09:40.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:09:41.000Z",
+                "completed_at": "2022-12-07T01:09:41.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2022-12-07T01:09:41.000Z",
+                "completed_at": "2022-12-07T01:09:41.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2022-12-07T01:09:41.000Z",
+                "completed_at": "2022-12-07T01:09:50.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:09:50.000Z",
+                "completed_at": "2022-12-07T01:09:50.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2022-12-07T01:09:50.000Z",
+                "completed_at": "2022-12-07T01:09:50.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2022-12-07T01:09:50.000Z",
+                "completed_at": "2022-12-07T01:10:33.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:10:33.000Z",
+                "completed_at": "2022-12-07T01:10:33.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:10:33.000Z",
+                "completed_at": "2022-12-07T01:10:36.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:10:36.000Z",
+                "completed_at": "2022-12-07T01:10:37.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930594024",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 38,
+        "runner_name": "GitHub Actions 19",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 9930593417,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOBpmML88AAAACT-jUiQ",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930593417",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133481806",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2022-12-07T01:09:27Z",
+        "completed_at": "2022-12-07T01:10:36Z",
+        "name": "foo ninja-vs-16-2019-win64-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:26.000Z",
+                "completed_at": "2022-12-07T01:09:28.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:28.000Z",
+                "completed_at": "2022-12-07T01:09:46.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:09:46.000Z",
+                "completed_at": "2022-12-07T01:09:47.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2022-12-07T01:09:47.000Z",
+                "completed_at": "2022-12-07T01:09:47.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2022-12-07T01:09:47.000Z",
+                "completed_at": "2022-12-07T01:09:53.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:09:53.000Z",
+                "completed_at": "2022-12-07T01:09:53.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2022-12-07T01:09:53.000Z",
+                "completed_at": "2022-12-07T01:09:53.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2022-12-07T01:09:53.000Z",
+                "completed_at": "2022-12-07T01:10:31.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:10:31.000Z",
+                "completed_at": "2022-12-07T01:10:31.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:10:31.000Z",
+                "completed_at": "2022-12-07T01:10:35.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:10:35.000Z",
+                "completed_at": "2022-12-07T01:10:35.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930593417",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 34,
+        "runner_name": "GitHub Actions 17",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 9930593537,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOBpmML88AAAACT-jVAQ",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930593537",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133481883",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2022-12-07T01:09:37Z",
+        "completed_at": "2022-12-07T01:11:03Z",
+        "name": "foo nmake-vs-16-2019-win64-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:36.000Z",
+                "completed_at": "2022-12-07T01:09:39.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:39.000Z",
+                "completed_at": "2022-12-07T01:09:59.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:10:00.000Z",
+                "completed_at": "2022-12-07T01:10:00.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2022-12-07T01:10:00.000Z",
+                "completed_at": "2022-12-07T01:10:00.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2022-12-07T01:10:00.000Z",
+                "completed_at": "2022-12-07T01:10:10.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:10:10.000Z",
+                "completed_at": "2022-12-07T01:10:10.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2022-12-07T01:10:10.000Z",
+                "completed_at": "2022-12-07T01:10:10.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2022-12-07T01:10:10.000Z",
+                "completed_at": "2022-12-07T01:10:58.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:10:58.000Z",
+                "completed_at": "2022-12-07T01:10:58.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:10:58.000Z",
+                "completed_at": "2022-12-07T01:11:02.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:11:02.000Z",
+                "completed_at": "2022-12-07T01:11:02.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930593537",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 4,
+        "runner_name": "GitHub Actions 4",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 9930593110,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOBpmML88AAAACT-jTVg",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930593110",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133481588",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2022-12-07T01:09:35Z",
+        "completed_at": "2022-12-07T01:10:31Z",
+        "name": "foo osx-10-15-make-cxx14 macos-10.15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:35.000Z",
+                "completed_at": "2022-12-07T01:09:39.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:39.000Z",
+                "completed_at": "2022-12-07T01:09:50.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:09:51.000Z",
+                "completed_at": "2022-12-07T01:09:51.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2022-12-07T01:09:51.000Z",
+                "completed_at": "2022-12-07T01:09:51.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2022-12-07T01:09:51.000Z",
+                "completed_at": "2022-12-07T01:09:51.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:09:51.000Z",
+                "completed_at": "2022-12-07T01:09:51.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2022-12-07T01:09:51.000Z",
+                "completed_at": "2022-12-07T01:10:29.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2022-12-07T01:10:29.000Z",
+                "completed_at": "2022-12-07T01:10:29.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:10:29.000Z",
+                "completed_at": "2022-12-07T01:10:29.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:10:29.000Z",
+                "completed_at": "2022-12-07T01:10:30.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:10:30.000Z",
+                "completed_at": "2022-12-07T01:10:30.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930593110",
+        "labels": [
+            "macos-10.15"
+        ],
+        "runner_id": 27,
+        "runner_name": "GitHub Actions 10",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 9930593251,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOBpmML88AAAACT-jT4w",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930593251",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133481691",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2022-12-07T01:09:37Z",
+        "completed_at": "2022-12-07T01:11:29Z",
+        "name": "foo osx-12-3-arch-universal2-cxx17 macos-12",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:36.000Z",
+                "completed_at": "2022-12-07T01:09:39.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:39.000Z",
+                "completed_at": "2022-12-07T01:09:47.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:09:47.000Z",
+                "completed_at": "2022-12-07T01:09:47.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2022-12-07T01:09:48.000Z",
+                "completed_at": "2022-12-07T01:09:48.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2022-12-07T01:09:48.000Z",
+                "completed_at": "2022-12-07T01:09:48.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:09:48.000Z",
+                "completed_at": "2022-12-07T01:09:48.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2022-12-07T01:09:48.000Z",
+                "completed_at": "2022-12-07T01:11:26.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2022-12-07T01:11:27.000Z",
+                "completed_at": "2022-12-07T01:11:27.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:11:27.000Z",
+                "completed_at": "2022-12-07T01:11:27.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:11:27.000Z",
+                "completed_at": "2022-12-07T01:11:27.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:11:27.000Z",
+                "completed_at": "2022-12-07T01:11:27.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930593251",
+        "labels": [
+            "macos-12"
+        ],
+        "runner_id": 5,
+        "runner_name": "GitHub Actions 5",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 9930592730,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOBpmML88AAAACT-jR2g",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930592730",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133481302",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2022-12-07T01:09:44Z",
+        "completed_at": "2022-12-07T01:10:13Z",
+        "name": "foo sanitize-address-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:43.000Z",
+                "completed_at": "2022-12-07T01:09:44.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:45.000Z",
+                "completed_at": "2022-12-07T01:09:48.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:09:48.000Z",
+                "completed_at": "2022-12-07T01:09:48.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2022-12-07T01:09:48.000Z",
+                "completed_at": "2022-12-07T01:09:48.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2022-12-07T01:09:48.000Z",
+                "completed_at": "2022-12-07T01:09:48.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:09:48.000Z",
+                "completed_at": "2022-12-07T01:09:48.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2022-12-07T01:09:48.000Z",
+                "completed_at": "2022-12-07T01:10:12.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2022-12-07T01:10:12.000Z",
+                "completed_at": "2022-12-07T01:10:12.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:10:12.000Z",
+                "completed_at": "2022-12-07T01:10:12.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:10:12.000Z",
+                "completed_at": "2022-12-07T01:10:12.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:10:12.000Z",
+                "completed_at": "2022-12-07T01:10:12.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930592730",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 2,
+        "runner_name": "GitHub Actions 2",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 9930592829,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOBpmML88AAAACT-jSPQ",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930592829",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133481380",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2022-12-07T01:09:35Z",
+        "completed_at": "2022-12-07T01:09:59Z",
+        "name": "foo sanitize-leak-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:35.000Z",
+                "completed_at": "2022-12-07T01:09:36.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:36.000Z",
+                "completed_at": "2022-12-07T01:09:39.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:09:39.000Z",
+                "completed_at": "2022-12-07T01:09:39.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2022-12-07T01:09:39.000Z",
+                "completed_at": "2022-12-07T01:09:39.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2022-12-07T01:09:39.000Z",
+                "completed_at": "2022-12-07T01:09:39.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:09:39.000Z",
+                "completed_at": "2022-12-07T01:09:39.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2022-12-07T01:09:39.000Z",
+                "completed_at": "2022-12-07T01:09:57.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2022-12-07T01:09:58.000Z",
+                "completed_at": "2022-12-07T01:09:58.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:09:58.000Z",
+                "completed_at": "2022-12-07T01:09:58.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:09:58.000Z",
+                "completed_at": "2022-12-07T01:09:58.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:09:57.000Z",
+                "completed_at": "2022-12-07T01:09:58.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930592829",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 21,
+        "runner_name": "GitHub Actions 6",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 9930592949,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOBpmML88AAAACT-jStQ",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930592949",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133481470",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2022-12-07T01:09:34Z",
+        "completed_at": "2022-12-07T01:09:58Z",
+        "name": "foo sanitize-thread-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:34.000Z",
+                "completed_at": "2022-12-07T01:09:35.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:35.000Z",
+                "completed_at": "2022-12-07T01:09:38.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:09:38.000Z",
+                "completed_at": "2022-12-07T01:09:38.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2022-12-07T01:09:38.000Z",
+                "completed_at": "2022-12-07T01:09:38.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2022-12-07T01:09:38.000Z",
+                "completed_at": "2022-12-07T01:09:38.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:09:38.000Z",
+                "completed_at": "2022-12-07T01:09:38.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2022-12-07T01:09:38.000Z",
+                "completed_at": "2022-12-07T01:09:57.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2022-12-07T01:09:57.000Z",
+                "completed_at": "2022-12-07T01:09:57.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:09:57.000Z",
+                "completed_at": "2022-12-07T01:09:57.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:09:57.000Z",
+                "completed_at": "2022-12-07T01:09:57.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:09:57.000Z",
+                "completed_at": "2022-12-07T01:09:57.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930592949",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 31,
+        "runner_name": "GitHub Actions 14",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 9930593648,
+        "run_id": 3634898432,
+        "run_url": "https://api.github.com/repos/Dargun/hunter/actions/runs/3634898432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOBpmML88AAAACT-jVcA",
+        "head_sha": "7c47995d2c6623ac2fd80f19c276d74b90de7467",
+        "url": "https://api.github.com/repos/Dargun/hunter/actions/jobs/9930593648",
+        "html_url": "https://github.com/Dargun/hunter/actions/runs/3634898432/jobs/6133481972",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2022-12-07T01:09:46Z",
+        "completed_at": "2022-12-07T01:11:37Z",
+        "name": "foo vs-16-2019-win64-sdk-10-0-18362-0-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-12-07T01:09:45.000Z",
+                "completed_at": "2022-12-07T01:09:47.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-12-07T01:09:47.000Z",
+                "completed_at": "2022-12-07T01:10:12.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-12-07T01:10:13.000Z",
+                "completed_at": "2022-12-07T01:10:13.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2022-12-07T01:10:13.000Z",
+                "completed_at": "2022-12-07T01:10:13.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2022-12-07T01:10:13.000Z",
+                "completed_at": "2022-12-07T01:10:22.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-12-07T01:10:22.000Z",
+                "completed_at": "2022-12-07T01:10:22.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2022-12-07T01:10:23.000Z",
+                "completed_at": "2022-12-07T01:10:23.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2022-12-07T01:10:23.000Z",
+                "completed_at": "2022-12-07T01:11:31.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2022-12-07T01:11:31.000Z",
+                "completed_at": "2022-12-07T01:11:31.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-12-07T01:11:31.000Z",
+                "completed_at": "2022-12-07T01:11:36.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-12-07T01:11:36.000Z",
+                "completed_at": "2022-12-07T01:11:36.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Dargun/hunter/check-runs/9930593648",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 26,
+        "runner_name": "GitHub Actions 9",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
     }
 ]
